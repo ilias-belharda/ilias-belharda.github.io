@@ -58,8 +58,8 @@ Actuellement, je partage mes projets, recherches et expériences pour montrer me
 
 ## 🔹 Contact
 
-- 📧 Email : ilias.belharda@example.com  
-- 💼 LinkedIn : [linkedin.com/in/ilias-belharda]([https://linkedin.com/in/ilias-belharda](https://www.linkedin.com/in/ilias-belharda-3736881a0/))  
+- 📧 Email : belharda.ilias@gmail.com 
+- 💼 LinkedIn : [[linkedin.com/in/ilias-belharda](https://www.linkedin.com/in/ilias-belharda-3736881a0/)]  
 
 ---
 
