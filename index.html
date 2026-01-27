@@ -35,6 +35,18 @@
             background: #020617;
             color: #94a3b8;
         }
+        .cert-row{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+.cert-logo{
+  width:30px;
+  height:30px;
+  object-fit:contain;
+  filter: brightness(0) invert(1);
+}
+
     </style>
 </head>
 <body>
@@ -71,21 +83,37 @@
     </div>
  <h2>Certifications</h2>
 
-<div class="card">
+<div class="card cert-row">
+  <a href="certs/fortinet.pdf" target="_blank">
+    <img src="assets/fortinet.svg" class="cert-logo" alt="Fortinet">
+  </a>
+  <div>
     <strong>Fortinet</strong><br>
     FCSS – OT Security 7.2
+  </div>
 </div>
 
-<div class="card">
+<div class="card cert-row">
+  <a href="certs/cisco.pdf" target="_blank">
+    <img src="assets/cisco.svg" class="cert-logo" alt="Cisco">
+  </a>
+  <div>
     <strong>Cisco Networking Academy</strong><br>
     Introduction to IoT<br>
     Digital Transformation
+  </div>
 </div>
 
-<div class="card">
+<div class="card cert-row">
+  <a href="certs/huawei.pdf" target="_blank">
+    <img src="assets/huawei.svg" class="cert-logo" alt="Huawei">
+  </a>
+  <div>
     <strong>Huawei</strong><br>
     HCIA – IoT V3.0
+  </div>
 </div>
+
     
     <h2>Projets</h2>
     <div class="card">
