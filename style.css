@@ -1,0 +1,102 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.container{
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.header{
+  padding: 60px 20px;
+  text-align: center;
+  background: #020617;
+}
+
+.title{
+  color: #38bdf8;
+  margin: 0;
+}
+
+.subtitle{
+  margin-top: 10px;
+  color: #e5e7eb;
+}
+
+.section-title{
+  color: #22d3ee;
+  margin-top: 25px;
+}
+
+.card{
+  background: #020617;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.link{
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
+.back{
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.back:hover{
+  text-decoration: underline;
+}
+
+.social-buttons{
+  margin-top:20px;
+  display:flex;
+  justify-content:center;
+  gap:15px;
+}
+
+.social-buttons a{
+  padding:12px 18px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.linkedin{
+  background:#0a66c2;
+  color:white;
+}
+
+.github{
+  background:#020617;
+  color:#38bdf8;
+  border:1px solid #38bdf8;
+}
+
+.social-buttons a:hover{
+  transform:translateY(-2px);
+  opacity:0.9;
+}
+
+.cert-row{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.cert-logo{
+  width:30px;
+  height:30px;
+  object-fit:contain;
+  filter: brightness(0) invert(1);
+}
