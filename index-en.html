@@ -1,107 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ilias Belharda | Cybersecurity Engineer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <title>Ilias Belharda | Cybersecurity Engineer</title>
+
+    <div class="social-buttons">
+      <a class="linkedin" 
+         href="https://www.linkedin.com/in/ilias-belharda-3736881a0/" 
+         target="_blank">
+         LinkedIn
+      </a>
+
+      <a class="github" 
+         href="https://github.com/ilias-belharda" 
+         target="_blank">
+         GitHub
+      </a>
+    </div>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #0f172a;
+            color: #e5e7eb;
+        }
+        header {
+            padding: 60px 20px;
+            text-align: center;
+            background: #020617;
+        }
+        h1 { color: #38bdf8; }
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        h2 { color: #22d3ee; }
+        .card {
+            background: #020617;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            color: #94a3b8;
+        }
+        .cert-row{
+          display:flex;
+          align-items:center;
+          gap:15px;
+        }
+        .cert-logo{
+          width:30px;
+          height:30px;
+          object-fit:contain;
+          filter: brightness(0) invert(1);
+        }
+        .social-buttons{
+          margin-top:20px;
+          display:flex;
+          justify-content:center;
+          gap:15px;
+        }
+        .social-buttons a{
+          padding:12px 18px;
+          border-radius:8px;
+          text-decoration:none;
+          font-weight:bold;
+          transition:0.3s;
+        }
+        .linkedin{
+          background:#0a66c2;
+          color:white;
+        }
+        .github{
+          background:#020617;
+          color:#38bdf8;
+          border:1px solid #38bdf8;
+        }
+        .social-buttons a:hover{
+          transform:translateY(-2px);
+          opacity:0.9;
+        }
+    </style>
 </head>
 
 <body>
 
-<header class="header">
-  <a href="index.html" class="link">🇫🇷 Version française</a>
+<header>
+    <a href="index.html" class="link">🇫🇷 Version française</a>
 
-  <h1 class="title">Ilias Belharda</h1>
-  <p class="subtitle">
-    Cybersecurity Engineer | APT Attacks • Active Directory • SOC • Reverse Engineering
-  </p>
+    <h1>Ilias Belharda</h1>
 
-  <div class="social-buttons">
-    <a class="linkedin"
-       href="https://www.linkedin.com/in/ilias-belharda-3736881a0/"
-       target="_blank">
-      LinkedIn
-    </a>
+    <p>
+      <a href="CV_Ilias_Belharda.pdf" target="_blank"
+         style="display:inline-block;margin-top:15px;padding:12px 18px;
+         background:#38bdf8;color:#020617;text-decoration:none;
+         border-radius:8px;font-weight:bold;">
+         Download my CV (PDF)
+      </a>
+    </p>
 
-    <a class="github"
-       href="https://github.com/ilias-belharda"
-       target="_blank">
-      GitHub
-    </a>
-  </div>
+    <p>
+        Cybersecurity Engineer | APT Attacks | Active Directory | Reverse Engineering
+    </p>
 </header>
 
-<section class="container">
+<section>
 
-  <h2 class="section-title">About Me</h2>
-  <div class="card">
-    Cybersecurity Engineer graduated with honors, specialized in
-    APT attack simulation, Active Directory security, threat analysis,
-    and reverse engineering. Passionate about offensive and defensive
-    security, research, and real-world attack scenarios.
-  </div>
+    <h2>About Me</h2>
+    <div class="card">
+        Cybersecurity Engineer graduated with High Honors, specialized in
+        APT attack simulation, Active Directory security, and threat analysis.
+    </div>
 
-  <h2 class="section-title">Technical Skills</h2>
-  <div class="card">
-    ✔ APT Attack Simulation<br>
-    ✔ Active Directory Security & Hardening<br>
-    ✔ SOC & Detection (Wazuh, Suricata)<br>
-    ✔ Reverse Engineering & Threat Research<br>
-    ✔ Network & Infrastructure Security
-  </div>
+    <h2>Skills</h2>
+    <div class="card">
+        ✔ APT Attacks<br>
+        ✔ Active Directory Security<br>
+        ✔ Wazuh / Suricata<br>
+        ✔ Reverse Engineering<br>
+        ✔ Network & SOC Security
+    </div>
 
-  <h2 class="section-title">Certifications</h2>
-  <div class="card cert-row">
-    <strong>Fortinet</strong> — FCSS OT Security 7.2
-  </div>
-  <div class="card cert-row">
-    <strong>Cisco Networking Academy</strong> — Introduction to IoT
-  </div>
-  <div class="card cert-row">
-    <strong>Huawei</strong> — HCIA IoT v3.0
-  </div>
+    <h2>Technical Certifications</h2>
 
-  <h2 class="section-title">Languages</h2>
-  <div class="card">
-    <strong>French</strong> — TCF B2<br>
-    <strong>English</strong> — EF SET C1
-  </div>
+    <div class="card cert-row">
+      <a href="certs/fortinet.pdf" target="_blank">
+        <img src="assets/fortinet.svg" class="cert-logo" alt="Fortinet">
+      </a>
+      <div>
+        <strong>Fortinet</strong><br>
+        FCSS – OT Security 7.2
+      </div>
+    </div>
 
-  <h2 class="section-title">Projects</h2>
+    <div class="card cert-row">
+      <a href="certs/cisco.pdf" target="_blank">
+        <img src="assets/cisco.svg" class="cert-logo" alt="Cisco">
+      </a>
+      <div>
+        <strong>Cisco Networking Academy</strong><br>
+        Introduction to IoT<br>
+        Digital Transformation
+      </div>
+    </div>
 
-  <div class="card">
-    <strong>APT Attack Simulation on Active Directory (Final Year Project)</strong><br>
-    Full attack lifecycle simulation and defensive implementation.<br><br>
-    <a class="link" href="projects/apt-ad.html">View details →</a>
-  </div>
+    <div class="card cert-row">
+      <a href="certs/huawei.pdf" target="_blank">
+        <img src="assets/huawei.svg" class="cert-logo" alt="Huawei">
+      </a>
+      <div>
+        <strong>Huawei</strong><br>
+        HCIA – IoT V3.0
+      </div>
+    </div>
 
-  <div class="card">
-    <strong>Reverse Engineering & Threat Research (Dark Web)</strong><br>
-    Analysis of exploit forums, sandboxing, static/dynamic analysis.<br><br>
-    <a class="link" href="projects/reverse-forums.html">View details →</a>
-  </div>
+    <h2>Languages & Language Certifications</h2>
 
-  <div class="card">
-    <strong>Browser Forensics</strong><br>
-    Extraction and analysis of browser artifacts for DFIR investigations.<br><br>
-    <a class="link" href="projects/browser-forensic.html">View details →</a>
-  </div>
+    <div class="card">
+      <strong>French</strong><br>
+      <a href="langues/tcf_b2.pdf" target="_blank" style="color:#38bdf8; text-decoration:none;">
+        TCF – Level B2
+      </a>
+    </div>
 
-  <div class="card">
-    <strong>Phishing & SDN Phishing</strong><br>
-    Study and simulation of phishing attacks and SDN-based scenarios.<br><br>
-    <a class="link" href="projects/phishing.html">View details →</a>
-  </div>
+    <div class="card">
+      <strong>English</strong><br>
+      <a href="langues/efset_c1.pdf" target="_blank" style="color:#38bdf8; text-decoration:none;">
+        EF SET – Level C1
+      </a>
+    </div>
 
-  <h2 class="section-title">Contact</h2>
-  <div class="card">
-    📧 <a class="link" href="mailto:belharda.ilias@gmail.com">belharda.ilias@gmail.com</a><br><br>
-    📞 <a class="link" href="tel:+2126XXXXXXXX">+212 6 XX XX XX XX</a><br><br>
-    🌐 <a class="link" href="https://ilias-belharda.github.io">Portfolio</a>
-  </div>
+    <h2>Projects</h2>
+
+    <div class="card">
+      <strong>APT Attack Simulation on Active Directory</strong><br>
+      Recon → Phishing → Exploitation → Persistence → Lateral Movement → Detection (Wazuh/Suricata).<br><br>
+      <a href="projects/apt-ad.html" style="color:#38bdf8;">View details →</a>
+    </div>
+
+    <div class="card">
+      <strong>Reverse Engineering — Exploit Forum Analysis (Dark Web)</strong><br>
+      Collection, sandboxing, static/dynamic analysis, risk assessment, security recommendations.<br><br>
+      <a href="projects/reverse-forums.html" style="color:#38bdf8;">View details →</a>
+    </div>
+
+    <div class="card">
+      <strong>Browser Forensics</strong><br>
+      Forensic analysis of browsers (history, artifacts, user traces).<br><br>
+      <a href="projects/browser-forensic.html" style="color:#38bdf8;">View details →</a>
+    </div>
+
+    <div class="card">
+      <strong>Phishing & SDN-Based Phishing</strong><br>
+      Analysis and simulation of classic phishing attacks and SDN-based phishing techniques.<br><br>
+      <a href="projects/phishing.html" style="color:#38bdf8;">View details →</a>
+    </div>
+
+    <h2>Contact</h2>
+
+    <div class="card">
+      📧 Email :
+      <a href="mailto:belharda.ilias@gmail.com" style="color:#38bdf8; text-decoration:none;">
+        belharda.ilias@gmail.com
+      </a>
+      <br><br>
+
+      📞 Phone :
+      <a href="tel:+212600102919" style="color:#38bdf8; text-decoration:none;">
+        +212 6 00 10 29 19
+      </a>
+      <br><br>
+
+      💼 LinkedIn :
+      <a href="https://www.linkedin.com/in/ilias-belharda-3736881a0/"
+         target="_blank" style="color:#38bdf8; text-decoration:none;">
+        linkedin.com/in/ilias-belharda
+      </a>
+      <br><br>
+
+      🐙 GitHub :
+      <a href="https://github.com/ilias-belharda"
+         target="_blank" style="color:#38bdf8; text-decoration:none;">
+        github.com/ilias-belharda
+      </a>
+    </div>
 
 </section>
+
+<footer>
+    © 2026 — Ilias Belharda
+</footer>
 
 </body>
 </html>
