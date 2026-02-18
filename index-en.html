@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Ilias Belharda | Cybersecurity Engineer</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/style.css">
 
   <style>
     body {
@@ -32,24 +31,13 @@
       padding: 20px;
       border-radius: 10px;
       margin-bottom: 20px;
-      line-height: 1.55;
+      line-height: 1.6;
     }
     footer {
       text-align: center;
       padding: 20px;
       background: #020617;
       color: #94a3b8;
-    }
-    .cert-row{
-      display:flex;
-      align-items:center;
-      gap:15px;
-    }
-    .cert-logo{
-      width:30px;
-      height:30px;
-      object-fit:contain;
-      filter: brightness(0) invert(1);
     }
     .social-buttons{
       margin-top:20px;
@@ -78,7 +66,6 @@
       transform:translateY(-2px);
       opacity:0.9;
     }
-
     .link{
       color:#38bdf8;
       text-decoration:none;
@@ -86,15 +73,6 @@
       display:inline-block;
       margin-bottom: 14px;
     }
-    .link:hover{ opacity:0.9; }
-
-    /* Services formatting */
-    .service-list{ margin:0; padding-left: 18px; }
-    .service-list li{ margin: 10px 0; }
-    .service-title{ font-weight: bold; color:#e5e7eb; }
-    .service-desc{ color:#cbd5e1; display:block; margin-top:4px; }
-
-    /* Subtle note */
     .note{
       margin-top: 10px;
       color:#94a3b8;
@@ -106,16 +84,16 @@
 <body>
 
 <header>
-  <a href="index.html" class="link">🇫🇷 Version française</a>
+  <a href="index.html" class="link">🇫🇷 French version</a>
 
   <h1>Ilias Belharda</h1>
 
   <p style="margin:0;">
-    Cybersecurity Engineer | APT-like Simulation | Active Directory Security | Detection & Response (SOC/Blue Team)
+    Cybersecurity Engineer | APT-like Simulation | Active Directory Security | Detection & Response (SOC / Blue Team)
   </p>
 
   <p>
-    <a href="resume_ilias_belharda.pdf" target="_blank" rel="noopener noreferrer"
+    <a href="resume_ilias_belharda.pdf" target="_blank"
        style="display:inline-block;margin-top:15px;padding:12px 18px;
        background:#38bdf8;color:#020617;text-decoration:none;
        border-radius:8px;font-weight:bold;">
@@ -142,196 +120,93 @@
 
   <h2>About Me</h2>
   <div class="card">
-    Cybersecurity Engineer specialized in APT-like attack simulation, Active Directory security, and intrusion detection (SOC / Blue Team).<br><br>
+    Cybersecurity Engineer specialized in APT-like attack simulation, 
+    Active Directory security, and detection & response (SOC / Blue Team).<br><br>
 
-    I operate in test or authorized environments to assess security posture, identify critical weaknesses, and propose concrete defensive measures against advanced multi-stage attacks.<br><br>
+    I conduct security assessments in controlled or authorized environments 
+    to identify critical weaknesses, evaluate business impact, and deliver 
+    concrete defensive and remediation strategies.<br><br>
 
-    My approach is risk-driven, focused on detection and remediation, with clear and actionable deliverables.
+    My approach is risk-driven, focused on visibility, detection capability, and practical remediation.
   </div>
 
-  <h2>Services</h2>
-  <div class="card">
-    <ul class="service-list">
-      <li>
-        <span class="service-title">APT-like Attack Simulation (test environment)</span>
-        <span class="service-desc">End-to-end assessment of detection and response against multi-stage attack scenarios, with remediation guidance.</span>
-      </li>
-      <li>
-        <span class="service-title">Active Directory Security Audit</span>
-        <span class="service-desc">Review of configurations, privileges, attack paths, and a hardening plan.</span>
-      </li>
-      <li>
-        <span class="service-title">SOC / SIEM Setup & Optimization</span>
-        <span class="service-desc">Wazuh deployment, log onboarding, detection rules, and alerting.</span>
-      </li>
-      <li>
-        <span class="service-title">Post-Incident Analysis & Recommendations</span>
-        <span class="service-desc">Trace analysis, attack vector identification, and corrective action plan.</span>
-      </li>
-    </ul>
-  </div>
-
-  <h2>Skills</h2>
+  <h2>Core Skills</h2>
   <div class="card">
     ✔ APT Attacks / APT-like Simulation<br>
     ✔ Active Directory Security<br>
     ✔ Detection & Response (SOC / SIEM)<br>
     ✔ Wazuh / Suricata<br>
     ✔ Reverse Engineering<br>
+    ✔ Web Application Security<br>
     ✔ Network Security
-  </div>
-
-  <h2>Technical Certifications</h2>
-
-  <div class="card cert-row">
-    <a href="certs/fortinet.pdf" target="_blank" rel="noopener noreferrer">
-      <img src="assets/fortinet.svg" class="cert-logo" alt="Fortinet">
-    </a>
-    <div>
-      <strong>Fortinet</strong><br>
-      FCSS – OT Security 7.2
-    </div>
-  </div>
-
-  <div class="card cert-row">
-    <a href="certs/cisco.pdf" target="_blank" rel="noopener noreferrer">
-      <img src="assets/cisco.svg" class="cert-logo" alt="Cisco">
-    </a>
-    <div>
-      <strong>Cisco Networking Academy</strong><br>
-      Introduction to IoT<br>
-      Digital Transformation
-    </div>
-  </div>
-
-  <div class="card cert-row">
-    <a href="certs/huawei.pdf" target="_blank" rel="noopener noreferrer">
-      <img src="assets/huawei.svg" class="cert-logo" alt="Huawei">
-    </a>
-    <div>
-      <strong>Huawei</strong><br>
-      HCIA – IoT V3.0
-    </div>
-  </div>
-
-  <h2>Languages & Language Certifications</h2>
-
-  <div class="card">
-    <strong>French</strong><br>
-    <a href="langues/tcf_b2.pdf" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; text-decoration:none;">
-      TCF – Level B2
-    </a>
-  </div>
-
-  <div class="card">
-    <strong>English</strong><br>
-    <a href="langues/efset_c1.pdf" target="_blank" rel="noopener noreferrer" style="color:#38bdf8; text-decoration:none;">
-      EF SET – Level C1
-    </a>
   </div>
 
   <h2>Projects</h2>
 
   <div class="card">
     <strong>APT Attack Simulation on Active Directory</strong><br>
-    <span style="color:#cbd5e1;">
-      Recon → Phishing → Exploitation → Persistence → Lateral Movement → Detection (Wazuh/Suricata).
-    </span><br><br>
+    Recon → Phishing → Exploitation → Persistence → Lateral Movement → Detection (Wazuh/Suricata).<br><br>
 
-    <strong>Business Value</strong>
-    <ul style="margin:10px 0 0; padding-left:18px;">
+    <strong>Business Impact</strong>
+    <ul>
       <li>Identifies critical weaknesses that could lead to full infrastructure compromise.</li>
-      <li>Provides a realistic view of the impact of a multi-stage advanced attack on Active Directory.</li>
-      <li>Improves detection and response capabilities against stealthy attacker behavior.</li>
-      <li>Delivers concrete hardening and remediation actions applicable to real environments.</li>
+      <li>Provides realistic assessment of advanced multi-stage attack impact.</li>
+      <li>Enhances detection and response capabilities against stealth techniques.</li>
+      <li>Delivers actionable hardening and remediation recommendations.</li>
     </ul>
-    <br>
+
     <a href="projects-en/apt-ad.html" style="color:#38bdf8;">View details →</a>
   </div>
 
   <div class="card">
-    <strong>Reverse Engineering — Exploit Forum Analysis (Dark Web)</strong><br>
-    <span style="color:#cbd5e1;">
-      Collection, sandboxing, static/dynamic analysis, risk assessment, security recommendations.
-    </span><br><br>
+    <strong>Web Application Security Assessment (OWASP Top 10)</strong><br>
+    Reconnaissance, vulnerability scanning, and validation with structured remediation guidance.<br><br>
 
-    <strong>Business Value</strong>
-    <ul style="margin:10px 0 0; padding-left:18px;">
-      <li>Extracts actionable threat insights and indicators from high-risk sources.</li>
-      <li>Reduces execution risk through a structured sandboxing methodology.</li>
-      <li>Provides practical recommendations to improve prevention and response.</li>
-      <li>Strengthens DFIR posture by contextualizing artifacts and findings.</li>
+    <strong>Business Impact</strong>
+    <ul>
+      <li>Identifies critical web vulnerabilities (SQLi, misconfiguration, missing headers).</li>
+      <li>Provides structured risk assessment and prioritization.</li>
+      <li>Delivers a professional technical security report.</li>
     </ul>
-    <br>
+
+    <a href="docs/webapp-assessment-sanitized.pdf"
+       target="_blank"
+       rel="noopener noreferrer"
+       style="color:#38bdf8;">
+       Download Full Report (PDF) →
+    </a>
+  </div>
+
+  <div class="card">
+    <strong>Reverse Engineering — Exploit Forum Analysis</strong><br>
+    Sandbox-based static and dynamic analysis of malicious artifacts.<br><br>
     <a href="projects-en/reverse-forums.html" style="color:#38bdf8;">View details →</a>
   </div>
 
   <div class="card">
     <strong>Browser Forensics</strong><br>
-    <span style="color:#cbd5e1;">
-      Forensic analysis of browsers (history, artifacts, user traces).
-    </span><br><br>
-
-    <strong>Business Value</strong>
-    <ul style="margin:10px 0 0; padding-left:18px;">
-      <li>Accelerates investigations through structured extraction of browser artifacts.</li>
-      <li>Improves traceability of user actions and suspicious activity.</li>
-      <li>Produces useful evidence for incident analysis and timeline building.</li>
-      <li>Provides hardening recommendations and best practices to reduce data leakage.</li>
-    </ul>
-    <br>
+    Structured extraction and analysis of browser artifacts.<br><br>
     <a href="projects-en/browser-forensic.html" style="color:#38bdf8;">View details →</a>
   </div>
 
   <div class="card">
-    <strong>Phishing & SDN-Based Phishing</strong><br>
-    <span style="color:#cbd5e1;">
-      Analysis and simulation of classic phishing attacks and SDN-based phishing techniques.
-    </span><br><br>
-
-    <strong>Business Value</strong>
-    <ul style="margin:10px 0 0; padding-left:18px;">
-      <li>Assesses user awareness and organizational resilience to phishing.</li>
-      <li>Identifies the most likely attack vectors and scenarios.</li>
-      <li>Provides protective recommendations (policies, filtering, MFA, hardening).</li>
-      <li>Strengthens prevention and reduces initial access compromise risk.</li>
-    </ul>
-    <br>
+    <strong>Phishing & SDN-Based Phishing Simulation</strong><br>
+    Attack simulation and user-awareness assessment.<br><br>
     <a href="projects-en/phishing.html" style="color:#38bdf8;">View details →</a>
   </div>
 
   <h2>Contact</h2>
 
   <div class="card">
-    📧 Email :
-    <a href="mailto:belharda.ilias@gmail.com" style="color:#38bdf8; text-decoration:none;">
-      belharda.ilias@gmail.com
-    </a>
-    <br><br>
-
-    📞 Phone :
-    <a href="tel:+212600102919" style="color:#38bdf8; text-decoration:none;">
-      +212 6 00 10 29 19
-    </a>
-    <br><br>
-
-    💼 LinkedIn :
-    <a href="https://www.linkedin.com/in/ilias-belharda-3736881a0/"
-       target="_blank" rel="noopener noreferrer"
-       style="color:#38bdf8; text-decoration:none;">
-      linkedin.com/in/ilias-belharda
-    </a>
-    <br><br>
-
-    🐙 GitHub :
-    <a href="https://github.com/ilias-belharda"
-       target="_blank" rel="noopener noreferrer"
-       style="color:#38bdf8; text-decoration:none;">
-      github.com/ilias-belharda
-    </a>
+    📧 <a href="mailto:belharda.ilias@gmail.com" style="color:#38bdf8;">belharda.ilias@gmail.com</a><br><br>
+    📞 <a href="tel:+212600102919" style="color:#38bdf8;">+212 6 00 10 29 19</a><br><br>
+    💼 <a href="https://www.linkedin.com/in/ilias-belharda-3736881a0/"
+       target="_blank" style="color:#38bdf8;">LinkedIn</a><br><br>
+    🐙 <a href="https://github.com/ilias-belharda"
+       target="_blank" style="color:#38bdf8;">GitHub</a>
 
     <div class="note">
-      All simulations were conducted exclusively in test or authorized environments for educational and security assessment purposes.
+      All simulations and assessments were conducted exclusively in controlled, test, or authorized environments.
     </div>
   </div>
 
